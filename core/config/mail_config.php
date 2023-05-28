@@ -1,0 +1,1 @@
+<?php $email_method = "smtp" ;$host = "businessguru.com.bd" ;$username = "info@businessguru.com.bd" ;$password = "yrqO!_W98POc" ;$port = "465" ;$encryption = "ssl"; ?>

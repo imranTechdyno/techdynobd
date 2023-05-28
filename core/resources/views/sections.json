@@ -1,0 +1,114 @@
+{
+  "banner": {
+    "no_selection": true,
+    "content": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "at_a_glance": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "platform": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "hr_speech": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "solution": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "about": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "service": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "testimonial": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "client": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "blog": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "contact": {
+    "element": {
+      "title": "text",
+      "color_text": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "footer": {
+    "no_selection": true,
+    "content": {
+      "footer_logo": "file",
+      "size": "240x150",
+      "footer_short_description": "textarea"
+    },
+    "element": {
+      "social_link": "text",
+      "social_icon": "icon"
+    }
+  }
+}
