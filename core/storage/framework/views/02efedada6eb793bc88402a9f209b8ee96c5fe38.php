@@ -109,16 +109,43 @@
             </div>
         </div>
     </div>
+    <div class="container-md py-5 mb-3 bottom_line">
+        <div class="row">
+            <p class="service_coun_text">Services 20+ Countries For Web & Software Development</p>
+        </div>
+        <div class="row service_coun_img">
+            <img src="<?php echo e(getFile('service_country', 'sc1.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc2.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc3.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc4.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc5.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc6.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc7.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc8.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc9.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc10.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc11.png')); ?>" alt="">
+            <img src="<?php echo e(getFile('service_country', 'sc12.png')); ?>" alt="">            
+            <img src="<?php echo e(getFile('service_country', 'sc13.png')); ?>" alt="">
+        </div>
+    </div>
     <div class="container-md">
         <div class="row py-5 d-none d-xl-flex">
             <div class="col-md-3">
                 <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
+                    <li class="nav-item mb-3">
                         <span class="footer_title">Address</span>
                     </li>
                     <li>
-                        <p>4th Floor, House-02, Road-07, 
+                        <p>4th Floor, House-02, Road-07,
                             Baridhara J Block, Dhaka-1212.</p>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <span class="footer_title">Headquarter Address:</span>
+                    </li>
+                    <li>
+                        <p>Haq's Plaza(4th floor), 26,
+                            Kamal Avenue, Banani,Dhaka-1213</p>
                     </li>
                 </ul>
             </div>
@@ -127,101 +154,50 @@
                     <li class="nav-item mb-4">
                         <span class="footer_title">Phone Number</span>
                     </li>
-                    <p><i class="fa-thin fa-phone"></i>+880-1686 276 704</p>
-                    <p>+880-1629 026 387</p>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">EXPERTISE</span>
+                    <li>
+                        <i class="fa fa-phone"></i><a href="tel:+880-1686 276 704"
+                            class="px-2 text-decoration-none">+880-1686 276 704</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#">Angular JS Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">React JS Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Vue JS Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">JavaScript Development </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">WordPress Development </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Php Development</a>
+                    <li>
+                        <i class="fa fa-phone"></i><a href="tel:+880-1629 026 387" class="px-2">+880-1629 026 387</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3">
                 <ul class="nav flex-column footer_li">
                     <li class="nav-item mb-4">
-                        <span class="footer_title">Recourses</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Career</a>
+                        <span class="footer_title">Support</span>
                     </li>
                     <li class="nav-item">
                         <a href="#">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">Get A Qoute</a>
+                        <a href="#">Item Support</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">Privacy Policy</a>
+                        <a href="#">FQA</a>
                     </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="nav flex-column footer_li">
+                    <li class="nav-item mb-4">
+                        <span class="footer_title">Follow us</span>
+                    </li>
+                    <div class="footer_contact">
+                        <a href="#" class="px-2"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="px-2"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="px-2"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
                 </ul>
             </div>
         </div>
     </div>
+    
 </footer>
 
-<div class="footer_bottom py-3">
-    <div class="container">
-        <div class="align-items-center justify-content-between row">
-            <div class="col-lg-6">
-                <div
-                    class="align-items-center d-flex flex-wrap justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-                    <div class="mx-2">
-                        <img src="asset/img/certificate/iso.png" alt="ISO Certificate">
-                    </div>
-                    <a href="https://basis.org.bd/company-profile/17-04-882" rel="nofollow" class="mx-2"
-                        target="_blank">
-                        <img src="asset/img/certificate/basis.png" alt="Basis Certificate">
-                    </a>
-                    <div>
-                        <img src="asset/img/certificate/bacco-white.png" class="mx-2" alt="BACCO Certificate">
-                    </div>
-                    <a href="https://codecanyon.net/user/bdtask/portfolio" rel="nofollow" class="mx-2"
-                        target="_blank">
-                        <img src="asset/img/certificate/envato-white.png" alt="Envato Certificate">
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="align-items-center d-flex justify-content-center justify-content-lg-end">
-                    <div>
-                        <h6 class="mb-0 me-3 text-muted">Pay With</h6>
-                    </div>
-                    <div><a href="https://www.bdtask.com/sebapayment/" class="mx-1"><img
-                                src="asset/img/payment/1.webp" class="rounded-1" alt="bdtask payment"></a></div>
-                    <div><a href="https://www.bdtask.com/sebapayment/" class="mx-1"><img
-                                src="asset/img/payment/2.webp" class="rounded-1" alt="bdtask payment"></a></div>
-                    <div><a href="https://www.bdtask.com/sebapayment/" class="mx-1"><img
-                                src="asset/img/payment/3.webp" class="rounded-1" alt="bdtask payment"></a></div>
-                    <div><a href="https://www.bdtask.com/sebapayment/" class="mx-1"><img
-                                src="asset/img/payment/4.webp" class="rounded-1" alt="bdtask payment"></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Back to top button -->
 <a class="gotoTop position-fixed rounded-2 text-center text-decoration-none text-white transition">

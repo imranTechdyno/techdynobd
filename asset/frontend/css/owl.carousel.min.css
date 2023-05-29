@@ -54,7 +54,7 @@
 
 .owl-carousel .owl-item img {
   display: block;
-  
+
 }
 
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
@@ -208,12 +208,17 @@
   height: 100%;
   width: 100%
 }
-.owl-dots{
+
+.owl-dots {
   text-align: center;
+  position: relative;
+  bottom: 90px;
 }
-.owl-dot{
+
+.owl-dot {
   margin-right: 10px;
 }
-.owl-dot .active{
-  background: #0784BD;
+
+button.owl-dot.active {
+  background: #0784BD !important;
 }

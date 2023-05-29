@@ -12,7 +12,7 @@
 
                                   <div class="position-absolute start-50 top-50 translate-middle z-two ">
                                       <a href="https://www.youtube.com/watch?v=FztESNRiPV8"
-                                          class="vdo-link align-items-center play_bg d-flex justify-content-center rounded-circle play_button pulse-anim2">
+                                          class="vdo-link align-items-center play_bg d-flex justify-content-center rounded-circle play_button pulse-anim2"> crossorigin="anonymous"
                                           <svg xmlns="http://www.w3.org/2000/svg" width="16.447" height="25.756"
                                               viewBox="0 0 16.447 25.756">
                                               <path id="Path_493" data-name="Path 493"
@@ -40,8 +40,8 @@
                                       digital service together here within your budget. Our skilled pro-
                                       fessionals are well capable of serving you with great experience.</p>
                               </div>
-                              <a href="" class="text-white hr_speech_view_button">View
-                                  Details</a>
+                              <a href="" class="hr_speech_view_button"><span class="text-bold">View
+                                Details</span></a>
                           </div>
 
                       </div>

@@ -16,8 +16,8 @@
                         <img src="{{ getFile('icon', 'p_icon1.png') }}" class="" alt="Bdtask Software Development Company">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">Web Design & Development</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">Web Design & Development</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -30,8 +30,8 @@
                         <img src="{{ getFile('icon', 'p_icon2.png') }}" class="" alt="Bdtask Web Development">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">Software Development</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">Software Development</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -44,8 +44,8 @@
                         <img src="{{ getFile('icon', 'p_icon3.png') }}" class="" alt="Bdtask Mobile App Development">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">E-Commerce</h5>
-                            <p> pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">Android Application</h5>
+                            <p text-center> pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -58,8 +58,8 @@
                         <img src="{{ getFile('icon', 'p_icon4.png') }}" class="" alt="eCommerce">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">E-Commerce</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">Search Engine Optimization(SEO)</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -69,11 +69,11 @@
             <div class="col-xl-3 col-md-6">
                 <a href="" class="border-0 card px-5 py-5 wow fadeIn h-100 product_link p_box5" data-wow-delay="1.2s">
                     <div class="d-block mb-4 position-relative p_icon">
-                        <img src="{{ getFile('icon', 'p_icon5.png') }}" class="" alt="Blogging Platform">
+                        <img src="{{ getFile('icon', 'p_icon5.png') }}" class="" alt="HR Management">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">Blogging Platform</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">HR Management</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -83,11 +83,11 @@
             <div class="col-xl-3 col-md-6">
                 <a href="" class="border-0 card px-5 py-5 wow fadeIn h-100 product_link p_box6" data-wow-delay="1.2s">
                     <div class="d-block mb-4 position-relative p_icon">
-                        <img src="{{ getFile('icon', 'p_icon6.png') }}" class="" alt="Blogging Platform">
+                        <img src="{{ getFile('icon', 'p_icon6.png') }}" class="" alt="Graphics Design">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">Blogging Platform</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">Graphics Design</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -97,11 +97,11 @@
             <div class="col-xl-3 col-md-6">
                 <a href="" class="border-0 card px-5 py-5 wow fadeIn h-100 product_link p_box7" data-wow-delay="1.2s">
                     <div class="d-block mb-4 position-relative p_icon">
-                        <img src="{{ getFile('icon', 'p_icon7.png') }}" class="" alt="Blogging Platform">
+                        <img src="{{ getFile('icon', 'p_icon7.png') }}" class="" alt="2D Animation Video">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">Blogging Platform</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">2D Animation Video</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -111,11 +111,11 @@
             <div class="col-xl-3 col-md-6">
                 <a href="" class="border-0 card px-5 py-5 wow fadeIn h-100 product_link p_box8" data-wow-delay="1.2s">
                     <div class="d-block mb-4 position-relative p_icon">
-                        <img src="{{ getFile('icon', 'p_icon8.png') }}" class="" alt="Blogging Platform">
+                        <img src="{{ getFile('icon', 'p_icon8.png') }}" class="" alt="Digital Marketing">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">Blogging Platform</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">Digital Marketing</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>
@@ -125,11 +125,11 @@
             <div class="col-xl-3 col-md-6">
                 <a href="" class=" card px-5 py-5 wow fadeIn h-100 product_link p_box9" data-wow-delay="1.2s">
                     <div class="d-block mb-4 position-relative p_icon">
-                        <img src="{{ getFile('icon', 'p_icon9.png') }}" class="" alt="Blogging Platform">
+                        <img src="{{ getFile('icon', 'p_icon9.png') }}" class="" alt="Total Branding">
                     </div>
                     <div class="card-body p-0 position-relative">
-                        <h5 class="card-title mb-3 fw_600">Blogging Platform</h5>
-                        <p class="card-text">Morbi pretium nibh libero, non dapibus ex m
+                        <h5 class="card-title mb-3 fw_600 text-center">Total Branding</h5>
+                        <p class="card-text text-center">Morbi pretium nibh libero, non dapibus ex m
                             amus eu  non dapibus ex mamus eu
                              ttttttto at massa cursus bibendum
                              sodales quis nulla</p>

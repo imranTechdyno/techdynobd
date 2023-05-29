@@ -1,6 +1,6 @@
 <!-- About Us Start-->
-<div class="py_70">
-    <div class="container-md">
+<div class="choose_us_section">
+    <div class="container choose_us_container">
         <div class="row align-items-center">
             <div class="col-lg-6 choose_us_block">
                 <h6 class="wow fadeInUp choose_us">Why Choose us</h6>

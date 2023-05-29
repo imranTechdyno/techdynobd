@@ -1,35 +1,28 @@
-<div class="align-items-center flex-wrap g-3 position-fixed row sideLink top-50 translate-middle-y">
-    <a href="https://api.whatsapp.com/send?phone=+8801817584639&text=Hello%21%20Would%20you%20like%20to%20help%20me?"
-        class="scl_link whatsapp_link" target="_blank">
-        <img src="https://www.bdtask.com/assets/images/icons/whatsapp.png" alt="WhatsApp">
-    </a>
-    <a title="Telegram" href="tg://resolve?domain=bdtask" class="scl_link telegram_link">
-        <img src="https://www.bdtask.com/assets/images/icons/telegram.png" alt="Telegram">
-    </a>
-</div>
-
 <div class="banner_wrapper shape_rotated position-relative overflow-hidden">
     <div class="header_area">
         <div class="container-fluid">
-            <div class="row justify-content-center top_bar">
-                <div class="col-lg-4 quick_contact text-center">
-                    <i class="fa fa-phone"></i><a href="tel:+88 01679
-                        252595" class="">+88
-                        01679
-                        252595</a>
+            <div class="col-lg-12">
+                <div class="row justify-content-center top_bar">
+                    <div class="col-lg-4 quick_contact text-center">
+                        <i class="fa fa-phone"></i><a href="tel:+88 01679
+                            252595"
+                            class="px-2">+88
+                            01679
+                            252595</a>
 
-                </div>
-                <div class="col-lg-4 quick_contact text-center">
-                    <i class="fa-solid fa-envelope"></i><a href="mailto:info@techdyno.com"
-                        class="text_white">info@techdyno.com</a>
+                    </div>
+                    <div class="col-lg-4 quick_contact text-center">
+                        <i class="fa-solid fa-envelope"></i><a href="mailto:info@techdyno.com"
+                            class="px-2">info@techdyno.com</a>
 
-                </div>
-                <div class="col-lg-4 quick_contact text-center tob_bar_social">
-                    <a href="#" class="px-2"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" class="px-2"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#" class="px-2"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="col-lg-4 quick_contact text-center tob_bar_social">
+                        <a href="#" class="px-2"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="px-2"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="px-2"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
 
+                    </div>
                 </div>
             </div>
 
@@ -38,7 +31,8 @@
             <!-- Start Navigation -->
 
             <header class="d-flex justify-content-center py-4">
-                <a href="https://www.bdtask.com/" class=" align-items-center logo mb-0 text-dark text-decoration-none">
+                <a href="https://www.techdynobd.com/"
+                    class=" align-items-center logo mb-0 text-dark text-decoration-none">
                     <img src="{{ getFile('logo', @$general->logo) }}" alt="Techdyno Logo">
                 </a>
 
@@ -935,7 +929,7 @@
                             target="_blank">Career</a></li>
                     <div class="col-auto">
                         <div class="header-btn-link">
-                            <a href="contact.html" class="btn btn-lg btn-default mt-1">Get A Quate</a>
+                            <a href="contact.html" class="btn btn-lg btn-default mt-1 h_get_a_quete">Get A Quate</a>
                         </div>
                     </div>
                 </ul>

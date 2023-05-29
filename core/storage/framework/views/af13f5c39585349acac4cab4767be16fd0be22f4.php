@@ -19,17 +19,24 @@
 
                 <div class="d-block wow fadeInUp collaborate" data-wow-delay="0.6s">
                     <div class="">
-                        <img src="https://www.bdtask.com/asset/img/certificate/basis.png" alt="Basis">
-                        <img src="https://www.bdtask.com/asset/img/certificate/bacco.png" alt="Bacco">
-                        <img src="https://www.bdtask.com/asset/img/certificate/envato.png" class="ms-2"
-                            alt="Envato">
+                        <img src="<?php echo e(getFile('banner', 'basis.png')); ?>" alt="Basis">
+                        <img src="<?php echo e(getFile('banner', 'ecab.png')); ?>" alt="Ecab">
+                        <img src="<?php echo e(getFile('banner', 'envato.png')); ?>" alt="Envato">
                     </div>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-8">
-                <div class="b_r_icon1"></div>
-                <img src="" alt="">
-                <div class="b_r_icon2"></div>
+                <div class="position-relative">
+                    <div class="b_r_icon1"></div>
+                    <img src="<?php echo e(getFile('banner', 'b_rectangle.png')); ?>" class="b_rectangle1" alt="Rectangle">
+                    <img src="<?php echo e(getFile('banner', 'b_rectangle.png')); ?>" class="b_rectangle2" alt="Rectangle">
+                    <img src="<?php echo e(getFile('banner', 'banner.png')); ?>" class="banner_img w-100 position-relative" alt="Banner">
+                    <img src="<?php echo e(getFile('banner', 'b_icon1.png')); ?>" class="b_icon1" alt="Banner Icon">
+                    <img src="<?php echo e(getFile('banner', 'b_icon2.png')); ?>" class="b_icon2" alt="Banner Icon">
+                    <img src="<?php echo e(getFile('banner', 'b_rectangle.png')); ?>" class="b_rectangle3" alt="Rectangle">
+                    
+                    <div class="b_r_icon2"></div>
+                </div>
             </div>
         </div>
     </div>
