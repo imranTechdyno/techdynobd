@@ -96,6 +96,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::post('pages/delete/{page}', [PagesController::class, 'pageDelete'])->name('frontend.pages.delete');
         Route::get('manage/section', [ManageSectionController::class, 'index'])->name('frontend.section');
         Route::get('manage/section/{name}', [ManageSectionController::class, 'section'])->name('frontend.section.manage');
+        Route::get('manage/section_test/{name}', [ManageSectionController::class, 'section_test'])->name('frontend.section_test.manage');
         Route::post('manage/section/{name}', [ManageSectionController::class, 'sectionContentUpdate']);
         Route::get('manage/element/{name}', [ManageSectionController::class, 'sectionElement'])->name('frontend.element');
         Route::get('manage/element/{name}/search', [ManageSectionController::class, 'section'])->name('frontend.element.search');

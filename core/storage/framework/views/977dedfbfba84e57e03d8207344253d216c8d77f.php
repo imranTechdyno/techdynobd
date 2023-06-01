@@ -1,155 +1,49 @@
-<div class="customer_testimonie_bg">
-    <div class="container-md">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-8 col-md-10">
-                <div class="text-center mb-5">
-                    <h2 class="fs-1 fw-bold mb-4 customer_testimonie">Customer Testimonies</h2>
-                    <p class="customer_testimonie_cont">Morbi pretium nibh libero, non dapibus ex amus eu non dapibus ex
-                        mamus eu
-                        ttthako at massa cursus bibendum at massa cursus bibendum
-                        sodales quis nulla at massa cursus bibendum</p>
+<!-- Achievement of the company starts -->
+<section class="home-company">
+    <div class="">
+        <!-- background image here -->
+        <div class="achievement-background">
+            <div class="achieve_head">Achievement of the Company</div>
+            <!--  -->
+            <div class="row achievemargin">
+                <div class="col-md-6 col-sm-12">
+                    <div class="">
+                        <img src="images/achieve.png" alt="" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="achievet">
+                        <h1>Award Title</h1>
+                    </div>
+                    <div class="achivep">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a
+                            type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the
+                            1960s with the release of Letraset sheets containing Lorem
+                            Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem
+                            Ipsum. It is a long established fact that a reader will be
+                            distracted by the readable content of a page when looking
+                            at its layout. The point of using Lorem Ipsum is that it
+                            has a more-or-less normal distribution of letters, as
+                            opposed to using 'Content here, content here', making it
+                            look like readable English. Many desktop publishing
+                            packages and web page editors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Various
+                            versions have evolved over the years.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row align-items-center ">
-            <div class="col-lg-12">
-                <div class="client_carousel owl-carousel slider_nav">
-                    <div class="item">
-                        <div class="row align-items-center cp_pad">
-                            <div class="col-lg-6">
-                                <div class="position-relative mb-5 mb-xl-0 customer_img_bg">
-                                    <img src="<?php echo e(getFile('banner', 'banner1.png')); ?>" alt="Victor Gbenga Afolabi"
-                                        class="img-fluid position-relative z-two customer_img">
-
-
-                                    <div class="position-absolute start-50 testi_play top-50 translate-middle z-two">
-                                        <a href="https://www.youtube.com/watch?v=FztESNRiPV8"
-                                            class="vdo-link align-items-center play_bg d-flex justify-content-center rounded-circle play_button pulse-anim2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16.447" height="25.756"
-                                                viewBox="0 0 16.447 25.756">
-                                                <path id="Path_493" data-name="Path 493"
-                                                    d="M-5221,1801.477v25.755l16.447-13.734Z"
-                                                    transform="translate(5221 -1801.477)" fill="#fff" />
-                                            </svg>
-                                        </a>
-                                    </div> 
-
-                                </div>
-                                <img src="<?php echo e(getFile('icon', 'cp_icon2.png')); ?>" class="cp_icon2" alt="Customer Icon">
-                            </div>
-                            <div class="col-lg-6">
-                                <div>
-                                    <img src="<?php echo e(getFile('icon', 'cp_icon.png')); ?>" alt="comma">
-                                </div>
-                                <div class="d-flex mb-4 ms-0 ms-lg-5">
-
-                                    <div class="d-block">
-                                        <h5 class="fw_600 mb-1 customer_name">Gusthan Akbar Gosh</h5>
-                                        <div class="fw-normal customer_designation">Managing Director, Rohan Fashion
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-block ms-0 ms-lg-5">
-                                    <p class="customer_speech">Morbi pretium nibh libero, non dapibus ex amus eu non
-                                        dapibus ex mamus eu
-                                        thako ass at massa cursus bibendum at massa cursus bibendum massa cur
-                                        sodales quis nulla at massa cursus bibendum odales quis nulla at.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="position-relative mb-5 mb-xl-0 customer_img_bg">
-                                    <img src="<?php echo e(getFile('banner', 'banner1.png')); ?>" alt="Victor Gbenga Afolabi"
-                                        class="img-fluid position-relative z-two customer_img">
-
-                                    <div class="position-absolute start-50 testi_play top-50 translate-middle z-two">
-                                        <a href="https://www.youtube.com/watch?v=FztESNRiPV8"
-                                            class="vdo-link align-items-center play_bg d-flex justify-content-center rounded-circle play_button pulse-anim2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16.447" height="25.756"
-                                                viewBox="0 0 16.447 25.756">
-                                                <path id="Path_493" data-name="Path 493"
-                                                    d="M-5221,1801.477v25.755l16.447-13.734Z"
-                                                    transform="translate(5221 -1801.477)" fill="#fff" />
-                                            </svg>
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <img src="<?php echo e(getFile('icon', 'cp_icon2.png')); ?>" class="cp_icon2" alt="Customer Icon">
-                            </div>
-                            <div class="col-lg-6">
-                                <div>
-                                    <img src="<?php echo e(getFile('icon', 'cp_icon.png')); ?>" alt="comma">
-                                </div>
-                                <div class="d-flex mb-4 ms-0 ms-lg-5">
-
-                                    <div class="d-block">
-                                        <h5 class="fw_600 mb-1 customer_name">Gusthan Akbar Gosh</h5>
-                                        <div class="fw-normal customer_designation">Managing Director, Rohan Fashion
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-block ms-0 ms-lg-5">
-                                    <p class="customer_speech">Morbi pretium nibh libero, non dapibus ex amus eu non
-                                        dapibus ex mamus eu
-                                        thako ass at massa cursus bibendum at massa cursus bibendum massa cur
-                                        sodales quis nulla at massa cursus bibendum odales quis nulla at.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="position-relative mb-5 mb-xl-0 customer_img_bg">
-                                    <img src="<?php echo e(getFile('banner', 'banner1.png')); ?>" alt="Victor Gbenga Afolabi"
-                                        class="img-fluid position-relative z-two customer_img">
-
-                                    <div class="position-absolute start-50 testi_play top-50 translate-middle z-two">
-                                        <a href="https://www.youtube.com/watch?v=FztESNRiPV8"
-                                            class="vdo-link align-items-center play_bg d-flex justify-content-center rounded-circle play_button pulse-anim2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16.447" height="25.756"
-                                                viewBox="0 0 16.447 25.756">
-                                                <path id="Path_493" data-name="Path 493"
-                                                    d="M-5221,1801.477v25.755l16.447-13.734Z"
-                                                    transform="translate(5221 -1801.477)" fill="#fff" />
-                                            </svg>
-                                        </a>
-                                    </div>
-
-                                </div>
-                                <img src="<?php echo e(getFile('icon', 'cp_icon2.png')); ?>" class="cp_icon2" alt="Customer Icon">
-                            </div>
-                            <div class="col-lg-6">
-                                <div>
-                                    <img src="<?php echo e(getFile('icon', 'cp_icon.png')); ?>" alt="comma">
-                                </div>
-                                <div class="d-flex mb-4 ms-0 ms-lg-5">
-
-                                    <div class="d-block">
-                                        <h5 class="fw_600 mb-1 customer_name">Gusthan Akbar Gosh</h5>
-                                        <div class="fw-normal customer_designation">Managing Director, Rohan Fashion
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-block ms-0 ms-lg-5">
-                                    <p class="customer_speech">Morbi pretium nibh libero, non dapibus ex amus eu non
-                                        dapibus ex mamus eu
-                                        thako ass at massa cursus bibendum at massa cursus bibendum massa cur
-                                        sodales quis nulla at massa cursus bibendum odales quis nulla at.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            <!--  -->
         </div>
     </div>
-</div>
-
-
-<?php /**PATH C:\laragon\www\tdbdltd\core\resources\views/frontend/sections/testimonial.blade.php ENDPATH**/ ?>
+</section>
+<!-- Achievement of the company ends --><?php /**PATH C:\laragon\www\tdbdltd\core\resources\views/frontend/sections/testimonial.blade.php ENDPATH**/ ?>

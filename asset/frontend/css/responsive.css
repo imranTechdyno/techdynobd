@@ -1,0 +1,84 @@
+@media only screen and (max-width: 480px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .know-header{
+        margin-bottom: 10px;
+    }
+    .company-details p{
+       text-align: justify;
+    }
+    /* for group at a glance section */
+    .write{
+        height: 25vh;
+        font-size: 34px;
+    }
+    .back{
+        padding-bottom: 50px;
+        height: inherit;
+    }
+    .child{
+        
+        margin: 0 auto;
+    }
+    .child p{
+        text-align: center;
+    }
+    .slick-prev img,
+    .slick-next img{
+    display:none;
+     }
+     /* For sister concern section */
+    .sister{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .blue-box{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .achieve_head{
+        font-size: 28px;
+    }
+    .news-head{
+        font-size: 34px;
+    }
+    .box{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    main.main {
+        padding-bottom: 10px
+    }
+    .icon a{
+        padding-bottom: 10px;
+    }
+    p{
+        text-align: justify;
+    }
+    
+  }
+@media only screen and (max-width: 780px) {
+    .know-header{
+        margin-bottom: 10px;
+    }
+    .company-details p{
+       text-align: justify;
+    }
+  }
+@media only screen and (max-width: 1025px) {
+    .know-header{
+        margin-bottom: 10px;
+    }
+    .company-details p{
+       text-align: justify;
+    }
+  }

@@ -226,7 +226,7 @@ function cloudUpload($size, $image, $folder, $old)
     if ($old) {
         $token = explode('/', $old);
         $token2 = explode('.', $token[sizeof($token) - 1]);
-        cloudinary()->destroy('CA/' . $folder . '/' . $token2[0]);
+        cloudinary()->destroy('TDBD/' . $folder . '/' . $token2[0]);
     }   
     $new_size   = explode('x', strtolower($size));
     $width  = $new_size[0] ? $new_size[0] : null;

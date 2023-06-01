@@ -1,45 +1,29 @@
 <?php
     $bannerElement = element('banner.element');
 ?>
-<!-- Banner Start-->
-<div class="banner_height banner banner_bg">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-xl-6">
-                <p class="banner_line"></p>
-                <p class="banner_line"></p>
-                <h2 class="fw-bold wow fadeInUp main_title"><span>Creative</span> Team </h2>
-                <p class="wow fadeInUp info_text" data-wow-delay="0.3s">A Full Service of Software and
-                    Website Development.</p>
 
-                <div class="banner_quete">
-                    <a href="#" class="banner_quete1">GET A QUETE</a>
-                    <a href="#" class="banner_quete2">CONTACT US</a>
-                </div>
+<!-- slider part starts here -->
+<main class="main">
 
-                <div class="d-block wow fadeInUp collaborate" data-wow-delay="0.6s">
-                    <div class="">
-                        <img src="<?php echo e(getFile('banner', 'basis.png')); ?>" alt="Basis">
-                        <img src="<?php echo e(getFile('banner', 'ecab.png')); ?>" alt="Ecab">
-                        <img src="<?php echo e(getFile('banner', 'envato.png')); ?>" alt="Envato">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-8">
-                <div class="position-relative">
-                    <div class="b_r_icon1"></div>
-                    <img src="<?php echo e(getFile('banner', 'b_rectangle.png')); ?>" class="b_rectangle1" alt="Rectangle">
-                    <img src="<?php echo e(getFile('banner', 'b_rectangle.png')); ?>" class="b_rectangle2" alt="Rectangle">
-                    <img src="<?php echo e(getFile('banner', 'banner.png')); ?>" class="banner_img w-100 position-relative" alt="Banner">
-                    <img src="<?php echo e(getFile('banner', 'b_icon1.png')); ?>" class="b_icon1" alt="Banner Icon">
-                    <img src="<?php echo e(getFile('banner', 'b_icon2.png')); ?>" class="b_icon2" alt="Banner Icon">
-                    <img src="<?php echo e(getFile('banner', 'b_rectangle.png')); ?>" class="b_rectangle3" alt="Rectangle">
-                    
-                    <div class="b_r_icon2"></div>
-                </div>
-            </div>
+    <section class="home-slider">
+        <div class="flexslider">
+            <ul class="slides">
+                <?php $__empty_1 = true; $__currentLoopData = $bannerElement; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
+                    <li class="">
+                        <img src="<?php echo e(@$item->data->image); ?>" alt="Slider 1" />
+                        <div class="slider-content">
+                            <div class="container">
+                                <!-- if anything nessesary we will add here slider one -->
+                            </div>
+                        </div>
+                    </li>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
+                    <?php echo $__env->make('frontend.partial.no_record_found', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                <?php endif; ?>
+
+            </ul>
         </div>
-    </div>
-</div>
-</div>
+    </section>
+
+    <!-- slider end here -->
 <?php /**PATH C:\laragon\www\tdbdltd\core\resources\views/frontend/sections/banner.blade.php ENDPATH**/ ?>

@@ -1,206 +1,141 @@
-<footer class="position-relative footer_bg">
-    <div class="container-md bottom_line">
-        <div class="row pb-5 pt_80 position-relative">
-            <div class="col-lg-6">
-                <a class="f_logo" href="https://www.techdynobd.com/">
-                    <img src="<?php echo e(getFile('logo', 'logo1.png')); ?>" alt="Techdyno Logo">
-                </a>
-            </div>
-            <div class="col-lg-6">
-                <p class="td_email">Email: info@techdynobd.com</p>
-            </div>
+<section class="home-partners">
+    <div class="container">
+        <div class="section-title text-center">
+            <div class="spacer-20"></div>
         </div>
+        
     </div>
-    <div class="container-md bottom_line">
-        <div class="row py-5 d-none d-xl-flex">
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">Solution</span>
-                    </li>
-                    <li>
-                        <a href="">Tour and Travel Management</a>
-                    </li>
-                    <li>
-                        <a href="">E-commerce</a>
-                    </li>
-                    <li>
-                        <a href="">HR Management</a>
-                    </li>
-                    <li>
-                        <a href="">Home Theater System</a>
-                    </li>
-                    <li>
-                        <a href="">Restaurant Management </a>
-                    </li>
-                    <li>
-                        <a href="">Enterprise Resource planning</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">Services</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Web Design & Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Software Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Android Application</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Search Engine Optimization (SEO)</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">2D Animation Video</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">EXPERTISE</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Angular JS Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">React JS Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Vue JS Development</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">JavaScript Development </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">WordPress Development </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Php Development</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">Recourses</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Career</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Get A Qoute</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container-md py-5 mb-3 bottom_line">
-        <div class="row">
-            <p class="service_coun_text">Services 20+ Countries For Web & Software Development</p>
-        </div>
-        <div class="row service_coun_img">
-            <img src="<?php echo e(getFile('service_country', 'sc1.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc2.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc3.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc4.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc5.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc6.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc7.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc8.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc9.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc10.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc11.png')); ?>" alt="">
-            <img src="<?php echo e(getFile('service_country', 'sc12.png')); ?>" alt="">            
-            <img src="<?php echo e(getFile('service_country', 'sc13.png')); ?>" alt="">
-        </div>
-    </div>
-    <div class="container-md">
-        <div class="row py-5 d-none d-xl-flex">
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-3">
-                        <span class="footer_title">Address</span>
-                    </li>
-                    <li>
-                        <p>4th Floor, House-02, Road-07,
-                            Baridhara J Block, Dhaka-1212.</p>
-                    </li>
-                    <li class="nav-item mb-3">
-                        <span class="footer_title">Headquarter Address:</span>
-                    </li>
-                    <li>
-                        <p>Haq's Plaza(4th floor), 26,
-                            Kamal Avenue, Banani,Dhaka-1213</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">Phone Number</span>
-                    </li>
-                    <li>
-                        <i class="fa fa-phone"></i><a href="tel:+880-1686 276 704"
-                            class="px-2 text-decoration-none">+880-1686 276 704</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-phone"></i><a href="tel:+880-1629 026 387" class="px-2">+880-1629 026 387</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">Support</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Item Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">FQA</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav flex-column footer_li">
-                    <li class="nav-item mb-4">
-                        <span class="footer_title">Follow us</span>
-                    </li>
-                    <div class="footer_contact">
-                        <a href="#" class="px-2"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#" class="px-2"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#" class="px-2"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-
+</section>
+</main>
+<footer>
+<div class="footer">
+    <div class="container">
+        <div class="row pre-footer justify-content-center">
+            <div class="col-md-5">
+                <div class="contact-box">
+                    
+                    <div class="contact-details">
+                        <h4 class="pre-footer-title">Let's Start The Journy With Us</h4>
+                        <p>
+                            We Are Ready To Servey 
+                        </p>
                     </div>
-                </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-5">
+                <div class="contact_btn_area">
+                    <div class="contact-box">
+                        <a href="#" class="about_btn1">About Us</a>
+                        <a href="#" class="about_btn2">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <div class="row widgets">
+            <div class="col-md-4 col-sm-6">
+                <div class="about-txt widget">
+                    <img src="images/almollalogo.png" alt="logo" />
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <div class="quick-links widget">
+                    <h2 class="widget-title">Company</h2>
+                    <ul>
+                        <li>
+                            <a href="#"> Company
+                                About Al Unisoft</a>
+                        </li>
+                        <li>
+                            <a href="#"> Contact Us </a>
+                        </li>
+                        <li>
+                            <a href="#"> Privacy Policy </a>
+                        </li>
+                        <li>
+                            <a href="#"> Terms & Condition </a>
+                        </li>
+                        <li>
+                            <a href="#"> FAQ  </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="spacer-50 visible-sm"></div>
+            <div class="col-md-3 col-sm-6">
+                <div class="our-services widget">
+                    <h2 class="widget-title">Quick Link</h2>
+                    <ul>
+                        <li>
+                            <a href="#"> 
+                                Sister Concern</a>
+                        </li>
+                        <li>
+                            <a href="#"> Board Members</a>
+                        </li>
+                        <li>
+                            <a href="#"> Career </a>
+                        </li>
+                        <li>
+                            <a href="#">New And Event </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="newsletter widget ico">
+                    <h2 class="widget-title">Follow Us</h2>
+                    <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                        <a href="mailto:example@example.com">example@example.com</a>
+                      </div><br>
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:example@example.com">example@example.com</a>
+                      </div><br>
+                      
+                      <div class="icon">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:+1234567890">123-456-7890</a>
+                      </div><br>
+                      <div class="widgets-social">
+                        <a href="#" class="face">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="tweet">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="linkdin">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="youtube">
+                            <i class="fa-brands fa-square-youtube fa-2xl" style="color: #f00000;"></i>
+                        </a>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </div>
-    
+</div>
+<div class="copyright">
+    <div class="container">
+        <div class="row copyright-bar">
+            <div class="col-md-12">
+                <p>
+                    Copyright©2022 Unisoft All rights reserved. Design and Developed by Techdyno BD Ltd.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</div>
 </footer>
-
-
-<!-- Back to top button -->
-<a class="gotoTop position-fixed rounded-2 text-center text-decoration-none text-white transition">
-    <i class="ti-arrow-up"></i>
-</a>
-<?php /**PATH C:\laragon\www\tdbdltd\core\resources\views/frontend/layout/footer.blade.php ENDPATH**/ ?>
+<a href="#0" class="cd-top"> Top </a>
+</div><?php /**PATH C:\laragon\www\tdbdltd\core\resources\views/frontend/layout/footer.blade.php ENDPATH**/ ?>

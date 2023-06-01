@@ -45,6 +45,29 @@ class ManageSectionController extends Controller
         return view('backend.frontend.index')->with($data);
     }
 
+    public function section_test(Request $request)
+    {
+
+        $search = $request->search;
+        $data['navManagePagesActiveClass'] = 'active';
+
+        $data['pageTitle'] = "Manage {$request->name} Section";
+
+        $data['activeClass'] = $request->name;
+
+        $data['section'] = $this->getJsonData($request->name);
+
+        $data['content'] = SectionData::where('key', "$request->name.content")->first();
+        $data['content_test'] = SectionData::where('key', "banner.content")->get();
+        $data['elements'] = SectionData::when($search, function ($query) use ($search) {
+            return $query->where('data->heading', 'LIKE', '%' . $search . '%');
+        })->where('key', "$request->name.element")->latest()->paginate();
+
+        return view('backend.frontend.index_text')->with($data);
+    }
+
+
+
     public function sectionContentUpdate(Request $request)
     {
 
